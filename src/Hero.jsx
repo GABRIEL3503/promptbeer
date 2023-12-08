@@ -1,5 +1,5 @@
-import HeroImage from '../src/assets/hero.png';
-import LogoImage from '../src/assets/logo.jpg'; // Asegúrate de que la ruta es correcta
+import HeroImage from '../src/assets/heroimage.png';
+import LogoImage from '../src/assets/logo..png'; // Asegúrate de que la ruta es correcta
 
 function Hero() {
   return (
