@@ -108,7 +108,7 @@ form > div:not(:last-child) {
   margin-bottom: 0.7rem; /* Esto es equivalente a 'space-y-4' en Tailwind */
 }
 .space-y-4{
-  padding: 0 77px;
+  padding: 0 35px;
 
 }
 #logo{
@@ -116,10 +116,11 @@ form > div:not(:last-child) {
 }
 
 #beer{
-  width: 410px;
+  width: 300px;
 }
 
 #contain{
+  justify-content: space-evenly;
 justify-content: center;
   display: flex;
   flex-wrap: wrap;
@@ -130,6 +131,7 @@ justify-content: center;
   }
 
   .cont-text{
+    font-size: 19px;
     width: 50%;
   }
 
@@ -152,4 +154,12 @@ justify-content: center;
 
 #container-tit p{
   font-size: 35px;
+}
+
+
+#contain-historia{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
