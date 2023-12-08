@@ -2,7 +2,7 @@
 import React from 'react';
 import BreweryImage from '../src/assets/historia.png'; // Asegúrate de que la ruta es correcta
 
-function BreweryInfo() {
+function historia() {
     return (
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-2xl font-bold text-gray-800 mb-4 text-center md:text-left">Historia y Proceso de Elaboración </h1>
@@ -22,4 +22,4 @@ function BreweryInfo() {
     );
   }
   
-  export default BreweryInfo;
+  export default historia;
