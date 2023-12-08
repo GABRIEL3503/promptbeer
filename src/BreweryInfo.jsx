@@ -10,7 +10,7 @@ function BreweryInfo() {
          
           <div  className="cont-text md:w-1/2">
             <p className="text-gray-600">
-            Bienvenido al mundo de Prompt, donde la pasión por la cerveza se encuentra con la vanguardia de la tecnología.  <strong className='color'> En Prompt, redefinimos la elaboración cervecera, fusionando métodos tradicionales con innovaciones de la inteligencia artificial y la robótica para crear cervezas de calidad excepcional.</strong> Cada gota de cerveza Prompt es testimonio de nuestro compromiso con la excelencia, la sostenibilidad y el sabor inigualable.
+            Bienvenido al mundo de Prompt, donde la pasión por la cerveza se encuentra con la vanguardia de la tecnología.  <strong className='color'> En Prompt, redefinimos la elaboración cervecera, fusionando métodos tradicionales con innovaciones de la inteligencia artificial y la robótica para crear cervezas de calidad excepcional.</strong> 
             </p>
           </div>
   
