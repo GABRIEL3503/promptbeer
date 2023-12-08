@@ -163,3 +163,7 @@ justify-content: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+li strong{
+  color: #98d6ee;
+}
