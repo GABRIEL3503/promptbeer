@@ -97,7 +97,7 @@ function CouponForm() {
   
 
   return (
-    <div id="container-card" className="flex items-center justify-center min-h-screen ">
+    <div id="container-card" className="flex items-center justify-center  ">
             <h1 className=" font-bold 800 mb-4 text-center ">GENERAR CUPÓN QR</h1>
 
     {!submitted ? (
