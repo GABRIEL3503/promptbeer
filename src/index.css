@@ -175,6 +175,7 @@ font-size: 37px;
 
 }
 .container{
+  padding-top: 22px;
   background: rgb(110,113,128);
 background: radial-gradient(circle, rgba(110,113,128,1) 0%, rgba(1,0,1,1) 100%);
 }
