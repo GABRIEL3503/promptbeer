@@ -194,7 +194,7 @@ margin-top: 25px;
 }
 
 .cont-imag{
-  width: 680px;
+ max-width: 100%;
   padding: 39px;
 
 }p {
