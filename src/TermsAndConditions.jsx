@@ -18,7 +18,7 @@ function TermsAndConditions() {
               <li>🍻 DISFRUTA.</li>
             </ol>
           </p>
-          <p className="mt-2 text-gray-600"><strong>Términos y condiciones:</strong> Recuerda que debes ser mayor de 18 años. En caso de generar un Cupón QR, el mismo permanecerá cargado en la página.</p>
+         
         </div>
 
         <div className="cont-imag md:w-1/2 mt-4 md:mt-0">

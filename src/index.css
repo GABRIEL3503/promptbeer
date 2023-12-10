@@ -1,5 +1,5 @@
 :root {
-  --main-color: #4ea9e6; /* Aquí defines el color que desees */
+  --main-color: #e0c10d; /* Aquí defines el color que desees */
 }
 
 :root {
@@ -90,7 +90,7 @@ button:focus-visible {
   background-color: #242424;
 }
 #card{
-  font-size: 19px;
+  font-size: 29px;
   font-weight: 600;
   background-image: radial-gradient( circle farthest-corner at 24.1% 68.8%,  rgba(50,50,50,1) 0%, rgba(0,0,0,1) 99.4% );
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -102,8 +102,11 @@ button:focus-visible {
 }
 
 #container-card{
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
 form > div:not(:last-child) {
   display: flex;
@@ -181,7 +184,7 @@ background: radial-gradient(circle, rgba(110,113,128,1) 0%, rgba(1,0,1,1) 100%);
 h1 {
 
   text-decoration: underline;
-  text-decoration-color: #4A90E2; /* ejemplo de color */
+  text-decoration-color: #927700; /* ejemplo de color */
   text-decoration-thickness: 2px; /* grosor del subrayado */
   text-underline-offset: 8px; /* distancia del subrayado al texto */
   
@@ -197,4 +200,26 @@ h1 {
 
 }p {
   line-height: 1.2; /* Un valor de 1.6 es comúnmente usado para una buena legibilidad */
+}
+
+
+.cer{
+  color: #c4ff21;
+}
+
+.foot{
+  width: 300px;
+}
+.footcont{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.parr{
+  font-size: 22px!important;
+  width: 1000px;
 }

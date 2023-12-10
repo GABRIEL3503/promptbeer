@@ -3,9 +3,10 @@ import './App.css'
 import Hero from './Hero';
 import TermsAndConditions from './TermsAndConditions';
 import Historia from './historia';
-import Productos from './Productos';
+import Productos from './productos';
 import CouponGenerator from './CouponGenerator';
 import BreweryInfo from './BreweryInfo';
+import Footer from './Footer';
 
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
        <Productos />
     <TermsAndConditions />
     <CouponGenerator />
+    <Footer />
   </div>
   )
 }

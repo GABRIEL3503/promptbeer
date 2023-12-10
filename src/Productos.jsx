@@ -17,27 +17,22 @@ function Productos() {
     
           {/* Lista de cervezas como tarjetas */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-            {/* Ejemplo de tarjeta */}
-            <div className="card bg-white rounded-lg p-4 shadow-lg">
-              <h3><strong>Prompt Byte IPA</strong> - 6.5% Alcohol</h3>
-              <p>Sabor: Cítrico, floral, con toque amargo</p>
-            </div>
-           {/* Tarjeta para Prompt Byte IPA */}
+          
   <div className="card bg-white rounded-lg p-4 shadow-lg">
-    <h3 className="font-bold">Prompt Byte IPA</h3>
+    <h3 className="cer font-bold">Prompt Byte IPA</h3>
     <p className="text-gray-600">Sabor: Cítrico, floral, con toque amargo - Alcohol: 6.5%</p>
   </div>
 
   {/* Tarjeta para Code Lager */}
   <div className="card bg-white rounded-lg p-4 shadow-lg">
-    <h3 className="font-bold">Code Lager</h3>
+    <h3 className=" cer font-bold">Code Lager</h3>
     <p className="text-gray-600">Sabor: Suave, fresca, ligeramente maltosa - Alcohol: 4.8%</p>
   </div>
 
   {/* Continúa para las demás cervezas */}
   {/* Tarjeta para AI Ale */}
   <div className="card bg-white rounded-lg p-4 shadow-lg">
-    <h3 className="font-bold">AI Ale</h3>
+    <h3 className="cer font-bold">AI Ale</h3>
     <p className="text-gray-600">Sabor: Frutal, balanceado, toque caramelo - Alcohol: 5.2%</p>
   </div>
 

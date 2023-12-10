@@ -1,5 +1,4 @@
-import HeroImage from '../src/assets/heroimage.png';
-import LogoImage from '../src/assets/logo..png'; // Asegúrate de que la ruta es correcta
+import HeroImage from '../src/assets/HERO-FINAL.png';
 
 function Hero() {
   return (
@@ -8,7 +7,7 @@ function Hero() {
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="flex justify-center items-center w-full h-full">
         {/* Añade el logo centrado aquí */}
-        <img id="logo" src={LogoImage} alt="Logo" className="max-w-xs md:max-w-sm lg:max-w-lg" />
+        {/* <img id="logo" src={LogoImage} alt="Logo" className="max-w-xs md:max-w-sm lg:max-w-lg" /> */}
       </div>
     </div>
   );
