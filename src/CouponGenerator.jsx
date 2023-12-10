@@ -97,15 +97,15 @@ function CouponForm() {
   
 
   return (
-    <div id="container-card" className="flex items-center justify-center min-h-screen bg-gray-100">
-            <h1 className="text-2xl font-bold text-gray-800 mb-4 text-center md:text-left">Generar cupón QR</h1>
+    <div id="container-card" className="flex items-center justify-center min-h-screen ">
+            <h1 className=" font-bold 800 mb-4 text-center md:text-left">Generar cupón QR</h1>
 
     {!submitted ? (
       
-      <div id="card"  className="bg-white shadow-lg rounded-lg p-8 m-4 w-full max-w-lg">
+      <div id="card"  className="bg-white shadow-lg rounded-lg p-8 m-4 w-full">
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-700">Nombre:</label>
+            <label htmlFor="name" className="block font-medium text-gray-300">Nombre:</label>
             <input
               id="name"
               name="name"
@@ -119,7 +119,7 @@ function CouponForm() {
           </div>
   
           <div>
-            <label htmlFor="dni" className="block text-sm font-medium text-gray-700">DNI:</label>
+            <label htmlFor="dni" className="block font-medium text-gray-300">DNI:</label>
             <input
               id="dni"
               name="dni"
@@ -133,7 +133,7 @@ function CouponForm() {
           </div>
   
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">Correo Electrónico:</label>
+            <label htmlFor="email" className="block font-medium text-gray-300">Correo Electrónico:</label>
             <input
               id="email"
               name="email"
@@ -147,7 +147,7 @@ function CouponForm() {
           </div>
   
           <div>
-            <label htmlFor="birthDate" className="block text-sm font-medium text-gray-700">Fecha de Nacimiento:</label>
+            <label htmlFor="birthDate" className="block font-medium text-gray-300">Fecha de Nacimiento:</label>
             <input
               id="birthDate"
               name="birthDate"
@@ -160,7 +160,7 @@ function CouponForm() {
           </div>
   
           <div>
-            <label htmlFor="bar" className="block text-sm font-medium text-gray-700">Selecciona el Bar:</label>
+            <label htmlFor="bar" className="block  font-medium text-gray-300">Selecciona el Bar:</label>
             <select
               id="bar"
               name="bar"
@@ -183,7 +183,7 @@ function CouponForm() {
           <div className="flex items-center justify-center">
             <button
               type="submit"
-              className="w-full px-6 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600 focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50"
+              className="w-full px-6 py-2 text-white  rounded-md hover:bg-blue-600 focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50"
             >
               Generar Código
             </button>
@@ -194,9 +194,9 @@ function CouponForm() {
       <div className="bg-white p-5 shadow-lg rounded-lg border border-gray-200 text-center w-full max-w-md mx-auto">
       {/* Envuelve solo los elementos que deseas descargar en un div con un id único */}
       <div id="qrContentToDownload">
-        <h2 className="text-2xl font-extrabold text-gray-700 mb-4">Código para retirar la cerveza</h2>
+        <h2 className=" font-extrabold text-gray-300 mb-4">Código para retirar la cerveza</h2>
         <QRCode value={qrCode} size={256} />
-        <p className="text-md text-gray-600 mt-4">
+        <p className="text-md text-gray-300 mt-4">
           👉Para retirarlo dirigite al proovedor mas cercano <br /> <strong>disfruta la frescura de PROMPT🍻.</strong> 
         </p>
       </div>

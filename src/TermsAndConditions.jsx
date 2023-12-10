@@ -4,11 +4,11 @@ import BreweryImage from './assets/qr.jpg'; // Asegúrate de que la ruta sea cor
 function TermsAndConditions() {
   return (
     <div id="container-tit" className="max-w-4xl mx-auto p-4">
-      <h1 className=" text-2xl font-bold pt-0 text-gray-800 mb-4">GENERAR CODIGO QR 📜</h1>
+      <h1 className=" font-bold pt-0 text-gray-300 mb-4">GENERAR CODIGO QR 📜</h1>
       
       <div id='contain' className=" flex flex-col md:flex-row items-center md:space-x-4">
         <div className=" cont-text md:w-1/2">
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 text-gray-300">
             Para que todo el mundo pueda disfrutar de nuestra Cerveza, lanzamos una promo por el mes de Diciembre: 
             <ol className="list-decimal ml-4">
               <li>📝 Valida tus datos.</li>

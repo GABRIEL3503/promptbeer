@@ -11,7 +11,7 @@ function Footer() {
 
                 {/* Logo */}
                 <div className="footcont mb-2 md:mb-0">
-                    <img src={LogoImage} alt="Prompt Logo" className="foot h-10" />
+                    <img src={LogoImage} alt="Prompt Logo" className="foot " />
                     <div className=" parr mb-2 md:mb-0">
                     <p id='par'> <strong>Términos y condiciones:</strong> Recuerda que debes ser mayor de 18 años para participar. <br /> En caso de generar un Cupón QR, el mismo permanecerá cargado en la página durante 24 hs. <br /> Beber con moderación</p>
                 </div>
