@@ -10,7 +10,7 @@ function historia() {
          
           <div  className="cont-text md:w-1/2">
             <p className="text-gray-600">
-            Prompt fusiona la artesanía cervecera con la innovación tecnológica. Nuestra IA selecciona los ingredientes premium, mientras que la robótica perfecciona cada fase de la elaboración.  <strong className='color'>El resultado: una cerveza excepcional que define el futuro de la tradición cervecera       </strong>     </p>
+            En Prompt, redefinimos la elaboración cervecera, fusionando métodos tradicionales con innovaciones de la inteligencia artificial y la robótica.  <strong className='color'> <br />El resultado: una cerveza excepcional que define el futuro de la tradición cervecera       </strong>     </p>
           </div>
   
           {/* Imagen */}

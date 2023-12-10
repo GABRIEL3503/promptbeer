@@ -1,4 +1,8 @@
 :root {
+  --main-color: #4ea9e6; /* Aquí defines el color que desees */
+}
+
+:root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -24,6 +28,7 @@ a:hover {
 
 
 body {
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   display: flex;
 
@@ -121,18 +126,16 @@ form > div:not(:last-child) {
 
 #contain{
   justify-content: space-evenly;
-justify-content: center;
+
   display: flex;
   flex-wrap: wrap;
   align-items: center;}
 
-  #container-tit{
-    width: 50%;
-  }
+ 
 
   .cont-text{
     font-size: 19px;
-    width: 50%;
+    width: 40%;
   }
 
   @media only screen and (max-width: 600px) {
@@ -149,12 +152,9 @@ justify-content: center;
       width: 98vw}
     }
 .color{
-  color: #98d6ee;
+  color: var(--main-color);
 }
 
-#container-tit p{
-  font-size: 35px;
-}
 
 
 #contain-historia{
@@ -166,4 +166,39 @@ justify-content: center;
 
 li strong{
   color: #98d6ee;
+}
+
+p{
+  font-weight: bold;
+}
+
+ p {
+font-size: 26px;
+
+}
+.container{
+  background: rgb(110,113,128);
+background: radial-gradient(circle, rgba(110,113,128,1) 0%, rgba(1,0,1,1) 100%);
+}
+
+
+h1 {
+
+  text-decoration: underline;
+  text-decoration-color: #4A90E2; /* ejemplo de color */
+  text-decoration-thickness: 2px; /* grosor del subrayado */
+  text-underline-offset: 8px; /* distancia del subrayado al texto */
+  
+
+}
+.container-{
+  padding: 20px;
+}
+
+.cont-imag{
+  width: 680px;
+  padding: 39px;
+
+}p {
+  line-height: 1.2; /* Un valor de 1.6 es comúnmente usado para una buena legibilidad */
 }

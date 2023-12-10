@@ -4,34 +4,52 @@ import BreweryImage from '../src/assets/lista.png'; // Asegúrate de que la ruta
 
 function Productos() {
     return (
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-2xl font-bold text-gray-800 mb-4 text-center md:text-left">Variedades que Inspiran</h1>
-        <div id='contain' className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
-         
-          <div className="cont-text md:w-1/2">
-            <p className="text-gray-600">
-              Explora nuestra selecta gama de cervezas 'Prompt'. Cada variedad, presentada en un empaque distintivo, <strong className='color'>refleja nuestro compromiso con la calidad y la innovación. Saborea la fusión de la tradición cervecera y la tecnología</strong>
-            </p>
+      <div className="contain mx-auto px-4 py-8">
+      <h1 className="text-2xl font-bold text-gray-800 mb-4 text-center md:text-left">Variedades que Inspiran</h1>
+      <div id='contain' className="cart flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
+        
+        <div className="cont-text md:w-1/2">
+          <p className="text-gray-700 text-lg">
+            <strong className='color'>
+            Saborea la fusión de la tradición cervecera y la tecnología</strong>
+          </p>
+    
+          {/* Lista de cervezas como tarjetas */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+            {/* Ejemplo de tarjeta */}
+            <div className="card bg-white rounded-lg p-4 shadow-lg">
+              <h3><strong>Prompt Byte IPA</strong> - 6.5% Alcohol</h3>
+              <p>Sabor: Cítrico, floral, con toque amargo</p>
+            </div>
+           {/* Tarjeta para Prompt Byte IPA */}
+  <div className="card bg-white rounded-lg p-4 shadow-lg">
+    <h3 className="font-bold">Prompt Byte IPA</h3>
+    <p className="text-gray-600">Sabor: Cítrico, floral, con toque amargo - Alcohol: 6.5%</p>
+  </div>
 
-            {/* Lista de cervezas */}
-            <ul className="mt-4">
-              <li><strong>Prompt Byte IPA</strong> - Sabor: Cítrico, floral, con toque amargo - Alcohol: 6.5%</li>
-              <li><strong>Code Lager</strong> - Sabor: Suave, fresca, ligeramente maltosa - Alcohol: 4.8%</li>
-              <li><strong>AI Ale</strong> - Sabor: Frutal, balanceado, toque caramelo - Alcohol: 5.2%</li>
-              <li><strong>Cyber Stout</strong> - Sabor: Café intenso, chocolate, robusto - Alcohol: 7.0%</li>
-              <li><strong>Pixel Pilsner</strong> - Sabor: Crisp, herbal, refrescante - Alcohol: 4.5%</li>
-              <li><strong>Tech Hops Bock</strong> - Sabor: Tostado, especiado, sutil dulzura - Alcohol: 6.8%</li>
-              <li><strong>Quantum Wheat</strong> - Sabor: Suave, trigo, notas cítricas - Alcohol: 5.0%</li>
-              <li><strong>Neural Net Porter</strong> - Sabor: Maltas oscuras, rico, complejo - Alcohol: 6.2%</li>
-            </ul>
-          </div>
-  
-          {/* Imagen */}
-          <div className="md:w-1/2">
-            <img id='beer' src={BreweryImage} alt="Imagen de la Cervecería" className="rounded-lg shadow-lg" />
+  {/* Tarjeta para Code Lager */}
+  <div className="card bg-white rounded-lg p-4 shadow-lg">
+    <h3 className="font-bold">Code Lager</h3>
+    <p className="text-gray-600">Sabor: Suave, fresca, ligeramente maltosa - Alcohol: 4.8%</p>
+  </div>
+
+  {/* Continúa para las demás cervezas */}
+  {/* Tarjeta para AI Ale */}
+  <div className="card bg-white rounded-lg p-4 shadow-lg">
+    <h3 className="font-bold">AI Ale</h3>
+    <p className="text-gray-600">Sabor: Frutal, balanceado, toque caramelo - Alcohol: 5.2%</p>
+  </div>
+
           </div>
         </div>
+    
+        {/* Imagen */}
+        <div className="cont-imag">
+          <img id='beer' src={BreweryImage} alt="Imagen de la Cervecería" className="rounded-lg shadow-lg" />
+        </div>
       </div>
+    </div>
+    
     );
 }
 
