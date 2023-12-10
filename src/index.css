@@ -97,8 +97,7 @@ button:focus-visible {
   border-radius: 0.5rem; /* Esto es equivalente a 'rounded-lg' en Tailwind */
   padding: 2rem; /* Esto es equivalente a 'p-8' en Tailwind */
   margin: 1rem; /* Esto es equivalente a 'm-4' en Tailwind */
-  width: 60%;
-  max-width: 32rem; /* Esto es equivalente a 'max-w-lg' en Tailwind */
+  width: 80%;
 }
 
 #container-card{
@@ -222,4 +221,10 @@ h1 {
 .parr{
   font-size: 22px!important;
   width: 1000px;
+}
+
+select, input{
+  font-size: 22px;
+  width: 40%;
+  height: 49px;
 }

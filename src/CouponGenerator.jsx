@@ -170,8 +170,12 @@ function CouponForm() {
               className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:border-indigo-500"
             >
               <option value="">Selecciona una opción</option>
-              <option value="bar1">Bar 1</option>
-              <option value="bar2">Bar 2</option>
+              <option value="bar1">El patio cervezero</option>
+              <option value="bar2">EL sitio 420</option>
+              <option value="bar2">EL BODEGON </option>
+              <option value="bar2">Beer Food N Roll </option>
+              <option value="bar2">Top crop </option>
+              <option value="bar2">Top Veg Food </option>
               {/* Agrega más opciones según los bares disponibles */}
             </select>
           </div>
