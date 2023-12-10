@@ -4,9 +4,9 @@ import BreweryImage from '../src/assets/lista.jpg'; // Asegúrate de que la ruta
 
 function Productos() {
     return (
-      <div className="container"> {/* Envoltura externa agregada */}
-      <div className="contain mx-auto px-4 py-8">
-      <h1 className=" font-bold text-gray-300 mb-4 text-center md:text-left">VARIEDADES QUE INSPIRAN</h1>
+      <div id="container"> {/* Envoltura externa agregada */}
+      <div className="contain  px-4 py-8">
+      <h1 className=" font-bold text-gray-300 mb-4 text-center ">VARIEDADES QUE INSPIRAN</h1>
       <div id='contain' className="cart flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
         
         <div className="cont-text md:w-1/2">

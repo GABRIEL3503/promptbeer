@@ -98,11 +98,11 @@ function CouponForm() {
 
   return (
     <div id="container-card" className="flex items-center justify-center min-h-screen ">
-            <h1 className=" font-bold 800 mb-4 text-center md:text-left">Generar cupón QR</h1>
+            <h1 className=" font-bold 800 mb-4 text-center ">GENERAR CUPÓN QR</h1>
 
     {!submitted ? (
       
-      <div id="card"  className="bg-white shadow-lg rounded-lg p-8 m-4 w-full">
+      <div id="card"  className="bg-white shadow-lg rounded-lg p-8 m-4 ">
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label htmlFor="name" className="block font-medium text-gray-300">Nombre:</label>
@@ -114,7 +114,7 @@ function CouponForm() {
               placeholder="Nombre completo"
               value={formData.name}
               onChange={handleChange}
-              className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:border-indigo-500"
+              className="mt-1 block px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:border-indigo-500"
             />
           </div>
   
@@ -128,7 +128,7 @@ function CouponForm() {
               placeholder="DNI"
               value={formData.dni}
               onChange={handleChange}
-              className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:border-indigo-500"
+              className="mt-1 block px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:border-indigo-500"
             />
           </div>
   
@@ -142,7 +142,7 @@ function CouponForm() {
               placeholder="Correo electrónico"
               value={formData.email}
               onChange={handleChange}
-              className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:border-indigo-500"
+              className="mt-1 block  px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:border-indigo-500"
             />
           </div>
   
@@ -155,7 +155,7 @@ function CouponForm() {
               required
               value={formData.birthDate}
               onChange={handleChange}
-              className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:border-indigo-500"
+              className="mt-1 block px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:border-indigo-500"
             />
           </div>
   
@@ -167,7 +167,7 @@ function CouponForm() {
               required
               value={formData.bar}
               onChange={handleChange}
-              className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:border-indigo-500"
+              className="mt-1 block  px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:border-indigo-500"
             >
               <option value="">Selecciona una opción</option>
               <option value="bar1">El patio cervezero</option>
@@ -181,22 +181,23 @@ function CouponForm() {
           </div>
   
           <div className="flex items-center justify-center">
-            <button
-              type="submit"
-              className="w-full px-6 py-2 text-white  rounded-md hover:bg-blue-600 focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50"
-            >
-              Generar Código
-            </button>
+          <button
+  type="submit"
+  className="w-full px-6 py-2 text-gray rounded-md bg-yellow-300 hover:bg-yellow-500 focus:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-50"
+>
+  Generar Código
+</button>
+
           </div>
         </form>
       </div>
     ) : (
-      <div className="bg-white p-5 shadow-lg rounded-lg border border-gray-200 text-center w-full max-w-md mx-auto">
+      <div className="bg-white p-5 shadow-lg rounded-lg border border-gray-200 text-center w-full max-w-md ">
       {/* Envuelve solo los elementos que deseas descargar en un div con un id único */}
       <div id="qrContentToDownload">
         <h2 className=" font-extrabold text-gray-300 mb-4">Código para retirar la cerveza</h2>
         <QRCode value={qrCode} size={256} />
-        <p className="text-md text-gray-300 mt-4">
+        <p className="leading-tight text-3xl font-bold text-gray-300 mt-4">
           👉Para retirarlo dirigite al proovedor mas cercano <br /> <strong>disfruta la frescura de PROMPT🍻.</strong> 
         </p>
       </div>

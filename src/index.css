@@ -119,7 +119,7 @@ form > div:not(:last-child) {
 }
 
 #beer{
-  width: 300px;
+  width: 400px;
 }
 
 #contain{
@@ -147,7 +147,7 @@ form > div:not(:last-child) {
     }
   
     #beer {
-      width: 90%}
+      width: 100%}
     }
 .color{
   color: var(--main-color);
@@ -174,7 +174,7 @@ p{
 font-size: 37px;
 
 }
-.container{
+#container{
   padding-top: 28px;
   background: rgb(110,113,128);
 background: radial-gradient(circle, rgba(110,113,128,1) 0%, rgba(1,0,1,1) 100%);
@@ -193,6 +193,7 @@ margin-top: 25px;
 .container-{
   padding-top: 26px;
   padding: 20px;
+  width: auto!important;
 }
 
 .cont-imag{

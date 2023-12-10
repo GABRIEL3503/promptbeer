@@ -3,8 +3,8 @@ import BreweryImage from './assets/qr.jpg'; // Asegúrate de que la ruta sea cor
 
 function TermsAndConditions() {
   return (
-    <div id="container-tit" className="max-w-4xl mx-auto p-4">
-      <h1 className=" font-bold pt-0 text-gray-300 mb-4">GENERAR CODIGO QR 📜</h1>
+    <div id="container-tit" className="  p-4">
+      <h1 className=" font-bold pt-0 text-gray-300 mb-4">PROMO LANZAMIENTO </h1>
       
       <div id='contain' className=" flex flex-col md:flex-row items-center md:space-x-4">
         <div className=" cont-text md:w-1/2">

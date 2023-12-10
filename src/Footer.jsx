@@ -4,8 +4,8 @@ import LogoImage from '../src/assets/logo..png'; // Corrige la ruta si es necesa
 
 function Footer() {
     return (
-        <footer className="bg-gray-800 text-white p-4">
-            <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
+        <footer className="text-white">
+            <div className=" flex flex-col md:flex-row justify-between items-center">
                 {/* Espacio para texto */}
                
 
@@ -13,7 +13,7 @@ function Footer() {
                 <div className="footcont mb-2 md:mb-0">
                     <img src={LogoImage} alt="Prompt Logo" className="foot " />
                     <div className=" parr mb-2 md:mb-0">
-                    <p id='par'> <strong>Términos y condiciones:</strong> Recuerda que debes ser mayor de 18 años para participar. <br /> En caso de generar un Cupón QR, el mismo permanecerá cargado en la página durante 24 hs. <br /> Beber con moderación</p>
+                    <p className ="mb-8" id='par'> <strong>Términos y condiciones:</strong> Recuerda que debes ser mayor de 18 años para participar. <br /> En caso de generar un Cupón QR, el mismo permanecerá cargado en la página durante 24 hs. <br /> Beber con moderación</p>
                 </div>
                 </div>
 
