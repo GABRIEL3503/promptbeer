@@ -228,3 +228,29 @@ select, input{
   width: 40%;
   height: 49px;
 }
+
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('assets/HERO-FINAL.jpg') no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Ajusta el color según tus preferencias */
+  z-index: 10;
+  text-align: center;
+}
+
+/* Efecto Paralaje */
+
+  .hero {
+    background-attachment: fixed;
+  }
+
