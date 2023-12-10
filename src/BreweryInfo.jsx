@@ -4,7 +4,7 @@ import BreweryImage from '../src/assets/img-cerv.jpg'; // Asegúrate de que la r
 
 function BreweryInfo() {
     return (
-      <div className="  ">
+      <div className=" pt-8 ">
         <h1 className=" font-bold text-gray-300 mb-4 text-center "> La CERVEZA DEL FUTURO<strong className='color'> HOY</strong></h1>
         <div id='contain' className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
          
