@@ -9,7 +9,7 @@ function BreweryInfo() {
         <div id='contain' className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
          
           <div  className="cont-text md:w-1/2">
-            <p className="text-gray-300 leading-tight text-3xl font-bold">
+            <p className="text-gray-300 leading-tight  font-bold">
             Bienvenido al mundo de <strong className='color'> Prompt </strong> , donde la pasión por la cerveza se encuentra con la vanguardia de la tecnología.  
             </p>
           </div>

@@ -197,7 +197,7 @@ function CouponForm() {
       <div id="qrContentToDownload">
         <h2 className=" font-extrabold text-gray-300 mb-4">Código para retirar la cerveza</h2>
         <QRCode value={qrCode} size={256} />
-        <p className="leading-tight text-3xl font-bold text-gray-300 mt-4">
+        <p className="leading-tight  font-bold text-gray-300 mt-4">
           👉Para retirarlo dirigite al proovedor mas cercano <br /> <strong>disfruta la frescura de PROMPT🍻.</strong> 
         </p>
       </div>

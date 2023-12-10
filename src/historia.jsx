@@ -9,7 +9,7 @@ function historia() {
         <div id='contain-historia' className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
          
           <div  className="cont-text ">
-            <p className="leading-tight text-3xl font-bold text-gray-300">
+            <p className="leading-tight font-bold text-gray-300">
             En Prompt, redefinimos la elaboración cervecera, fusionando métodos tradicionales con innovaciones de la inteligencia artificial y la robótica.  <strong className='color'> <br />El resultado: una cerveza excepcional que define el futuro de la tradición cervecera       </strong>     </p>
           </div>
   
