@@ -256,3 +256,10 @@ select, input{
     background-attachment: fixed;
   }
 
+
+
+  .hero h2{
+    font-size: 72px;
+    font-weight: 700;
+    font-family:  'Montserrat', sans-serif;
+  }
