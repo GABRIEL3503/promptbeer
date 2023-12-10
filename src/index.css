@@ -190,6 +190,7 @@ margin-top: 25px;
 
 }
 .container-{
+  padding-top: 26px;
   padding: 20px;
 }
 
@@ -251,6 +252,7 @@ select, input{
 /* Efecto Paralaje */
 
   .hero {
+    margin-top: 70px;
     background-attachment: fixed;
   }
 
