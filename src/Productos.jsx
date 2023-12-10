@@ -4,6 +4,7 @@ import BreweryImage from '../src/assets/lista.png'; // Asegúrate de que la ruta
 
 function Productos() {
     return (
+      <div className="container"> {/* Envoltura externa agregada */}
       <div className="contain mx-auto px-4 py-8">
       <h1 className="text-2xl font-bold text-gray-800 mb-4 text-center md:text-left">Variedades que Inspiran</h1>
       <div id='contain' className="cart flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
@@ -49,7 +50,7 @@ function Productos() {
         </div>
       </div>
     </div>
-    
+    </div> 
     );
 }
 

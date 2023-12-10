@@ -3,7 +3,6 @@
 }
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -112,10 +111,7 @@ form > div:not(:last-child) {
   justify-content: space-between;
   margin-bottom: 0.7rem; /* Esto es equivalente a 'space-y-4' en Tailwind */
 }
-.space-y-4{
-  padding: 0 35px;
 
-}
 #logo{
   width: 310px;
 }
@@ -142,14 +138,14 @@ form > div:not(:last-child) {
     .cont-text{
       font-weight: 500;
       font-size: 32px;
-      width: 95vw!important;
+      width: 90%!important;
     }
     #container-tit{
       width: 98%;
     }
   
     #beer {
-      width: 98vw}
+      width: 90%}
     }
 .color{
   color: var(--main-color);
