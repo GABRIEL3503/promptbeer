@@ -193,7 +193,7 @@ function CouponForm() {
         <h2 className="text-2xl font-extrabold text-gray-700 mb-4">Código para retirar la cerveza</h2>
         <QRCode value={qrCode} size={256} />
         <p className="text-md text-gray-600 mt-4">
-          Para retirarlo dirigite al bar y disfruta la frescura de Andes.
+          👉Para retirarlo dirigite al proovedor mas cercano <br /> <strong>disfruta la frescura de PROMPT🍻.</strong> 
         </p>
       </div>
       {/* Coloca los botones fuera del div de descarga */}

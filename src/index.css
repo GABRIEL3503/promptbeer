@@ -46,7 +46,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-image: radial-gradient( circle farthest-corner at 24.1% 68.8%,  rgba(50,50,50,1) 0%, rgba(0,0,0,1) 99.4% );
+  background-image: radial-gradient( circle farthest-corner at 24.1% 68.8%,  rgb(37, 37, 37) 0%, rgb(255, 239, 16) 99.4% );
   cursor: pointer;
   transition: border-color 0.25s;
 }
