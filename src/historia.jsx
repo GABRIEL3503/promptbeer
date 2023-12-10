@@ -5,7 +5,7 @@ import BreweryImage from '../src/assets/historia.jpg'; // Asegúrate de que la r
 function historia() {
     return (
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-2xl font-bold text-gray-800 mb-4 text-center md:text-left">Historia y Proceso de Elaboración </h1>
+        <h1 className="text-2xl font-bold text-gray-800 mb-4 text-center md:text-left">HISTORIA Y PROCESO DE ELAVORACIÓN</h1>
         <div id='contain-historia' className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
          
           <div  className="cont-text md:w-1/2">

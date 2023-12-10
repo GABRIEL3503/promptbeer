@@ -6,7 +6,7 @@ function Productos() {
     return (
       <div className="container"> {/* Envoltura externa agregada */}
       <div className="contain mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold text-gray-800 mb-4 text-center md:text-left">Variedades que Inspiran</h1>
+      <h1 className="text-2xl font-bold text-gray-800 mb-4 text-center md:text-left">VARIEDADES QUE INSPIRAN</h1>
       <div id='contain' className="cart flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
         
         <div className="cont-text md:w-1/2">
