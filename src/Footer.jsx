@@ -25,7 +25,7 @@ function Footer() {
                 </div>
             </div>
             <div className="mb-2 md:mb-0">
-                    <p>&copy; {new Date().getFullYear()} Prompt Brewery. Todos los derechos reservados.</p>
+                    <p>&copy; {new Date().getFullYear()} Prompt Brewery. Todos los derechos reservados.  <a href="https://www.linkedin.com/in/gabriel-medina-frontend/">Gabriel Medina</a></p>
                 </div>
         </footer>
     );
