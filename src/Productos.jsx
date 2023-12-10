@@ -1,6 +1,6 @@
 // BreweryInfo.js
 import React from 'react';
-import BreweryImage from '../src/assets/lista.png'; // Asegúrate de que la ruta es correcta
+import BreweryImage from '../src/assets/lista.jpg'; // Asegúrate de que la ruta es correcta
 
 function Productos() {
     return (

@@ -1,6 +1,6 @@
 // BreweryInfo.js
 import React from 'react';
-import BreweryImage from '../src/assets/img-cerv.png'; // Asegúrate de que la ruta es correcta
+import BreweryImage from '../src/assets/img-cerv.jpg'; // Asegúrate de que la ruta es correcta
 
 function BreweryInfo() {
     return (

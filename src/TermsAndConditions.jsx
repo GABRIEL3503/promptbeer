@@ -1,5 +1,5 @@
 import React from 'react';
-import BreweryImage from './assets/qr.png'; // Asegúrate de que la ruta sea correcta
+import BreweryImage from './assets/qr.jpg'; // Asegúrate de que la ruta sea correcta
 
 function TermsAndConditions() {
   return (

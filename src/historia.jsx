@@ -1,6 +1,6 @@
 // BreweryInfo.js
 import React from 'react';
-import BreweryImage from '../src/assets/historia.png'; // Asegúrate de que la ruta es correcta
+import BreweryImage from '../src/assets/historia.jpg'; // Asegúrate de que la ruta es correcta
 
 function historia() {
     return (
