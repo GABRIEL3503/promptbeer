@@ -183,7 +183,7 @@ function CouponForm() {
           <div className="flex items-center justify-center">
           <button
   type="submit"
-  className="w-full px-6 py-2 text-gray rounded-md bg-orange-500 hover:bg-yellow-500 focus:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-50"
+  className="w-full px-6 py-2 text-gray rounded-md bg-orange-500 hover:bg-yellow-500 focus:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-30"
 >
   Generar Código
 </button>
