@@ -267,7 +267,16 @@ select, input{
   }
 
   .hero button{
-    
+    margin-top: 12px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+
+    font-weight: 500;
+    font-family: inherit;
+    background-image: radial-gradient( circle farthest-corner at 24.1% 68.8%,  rgb(134 137 23) 0%, rgb(173 164 45) 99.4% );
+    cursor: pointer;
+    transition: border-color 0.25s;
       font-size: 1.9em;
     
   }
