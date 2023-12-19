@@ -289,3 +289,7 @@ select, input{
   #birthDate{
        color: #213547;
   }
+  p {
+    line-height: 1.5; /* Aumenta el espacio entre líneas a 1.5 veces el tamaño de fuente por defecto */
+  }
+  
