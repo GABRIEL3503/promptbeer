@@ -8,8 +8,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: linear-gradient(135deg, #060612, #5294e7);
-
+  /* background: rgb(27,26,26);
+  background: linear-gradient(67deg, rgba(27,26,26,1) 13%, rgba(60,97,196,1) 82%); */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -92,7 +92,7 @@ button:focus-visible {
 #card{
   font-size: 39px;
   font-weight: 600;
-  background-image: radial-gradient( circle farthest-corner at 24.1% 68.8%,  rgba(50,50,50,1) 0%, rgba(0,0,0,1) 99.4% );
+  background: linear-gradient(135deg, #060612, #006ff7);
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   border-radius: 0.5rem; /* Esto es equivalente a 'rounded-lg' en Tailwind */
   padding: 2rem; /* Esto es equivalente a 'p-8' en Tailwind */
@@ -176,9 +176,8 @@ font-size: 37px;
 }
 #container{
   padding-top: 28px;
-  background: rgb(110,113,128);
-background: linear-gradient(135deg, #060612, #5294e7);
-}
+  background: rgb(31,31,31);
+  background: linear-gradient(135deg, #060612, #5294e7);}
 
 
 h1 {
@@ -242,6 +241,7 @@ select, input{
 }
 
 .hero-text {
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -274,9 +274,12 @@ select, input{
 
     font-weight: 500;
     font-family:  'Montserrat', sans-serif;
-    background-image: radial-gradient( circle farthest-corner at 24.1% 68.8%,  rgb(212, 219, 9) 0%, rgb(146, 137, 15) 99.4% );
+    background-image: radial-gradient( circle farthest-corner at 24.1% 68.8%,  rgb(10 10 10) 0%, rgb(69 69 67) 99.4% );
     cursor: pointer;
     transition: border-color 0.25s;
-      font-size: 1.9em;
+      font-size: 2.5em;
     
+  }input, select{
+    font-weight: bold;
+    color: rgb(27, 26, 26);
   }
