@@ -2,6 +2,16 @@ import React, { useState } from 'react';
 import QRCode from 'qrcode.react';
 import html2canvas from 'html2canvas';
 
+const barNames = {
+  bar1: "El patio cervezero",
+  bar2: "420",
+  bar3: "EL BODEGON",
+  bar4: "Beer Food N Roll",
+  bar5: "Top crop",
+  bar6: "Top Veg Food"
+  // Agrega más bares según sea necesario
+};
+
 function CouponForm() {
   const [formData, setFormData] = useState({
     name: '',
@@ -86,7 +96,9 @@ function CouponForm() {
   
     // Solo genera un nuevo código si han pasado 24 horas o no existe un código previo
     if (canGenerateCode()) {
-      const urlToYourPage = 'https://gabriel3503.github.io/qrcervezeria/';
+      
+      const details = `name=${formData.name}&dni=${formData.dni}&bar=${formData.bar}`;
+      const urlToYourPage = `https://gabriel3503.github.io/qrcervezeria/?${details}`;
       // Suponiendo que quieres guardar tanto el código como el timestamp en localStorage
       const newGeneratedData = { qrCode: urlToYourPage, timestamp: now.toISOString() };
       localStorage.setItem(formData.dni, JSON.stringify(newGeneratedData)); // Guardar como JSON string
@@ -194,13 +206,15 @@ function CouponForm() {
       </div>
     ) : (
       <div className="bg-white p-5 shadow-lg rounded-lg border border-gray-200 text-center w-full max-w-md ">
-      {/* Envuelve solo los elementos que deseas descargar en un div con un id único */}
       <div id="qrContentToDownload">
-        <h2 className=" font-extrabold text-gray-300 mb-4">Código para retirar la cerveza</h2>
-        <QRCode value={qrCode} size={256} />
-        <p className="leading-tight  font-bold text-gray-300 mt-4">
-          👉Para retirarlo dirigite al proovedor mas cercano <br /> <strong>disfruta la frescura de PROMPT🍻.</strong> 
-        </p>
+    <h2 className=" font-extrabold text-gray-300 mb-4">Tu Código QR para {barNames[formData.bar]}</h2>
+    <QRCode value={qrCode} size={256} />
+    <p className="text-white-700 mt-4">
+      Nombre: {formData.name}<br/>
+      DNI: {formData.dni}<br/>
+      Bar: {barNames[formData.bar]}<br/>
+      <strong>Dirígete al proveedor más cercano para disfrutar de tu cerveza PROMPT🍻.</strong> 
+    </p>
       </div>
       {/* Coloca los botones fuera del div de descarga */}
       <div className="mt-4">
