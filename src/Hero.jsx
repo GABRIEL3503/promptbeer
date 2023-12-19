@@ -5,7 +5,7 @@ function Hero() {
     <div className="hero" style={{ backgroundImage: `url(${HeroImage})` }}>
       <div className="absolute inset-0 bg-black opacity-20"></div>
       <div className="hero-text">
-     <button>🦾 PREGUNTARLE AL CHATBOT</button>
+     <button>🦾 CONOCÉ NUESTRO CHATBOT</button>
         {/* Otros elementos que desees centrar */}
       </div>
     </div>

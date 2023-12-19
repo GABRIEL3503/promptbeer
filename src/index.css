@@ -274,7 +274,7 @@ select, input{
 
     font-weight: 500;
     font-family:  'Montserrat', sans-serif;
-    background-image: radial-gradient( circle farthest-corner at 24.1% 68.8%,  rgb(10 10 10) 0%, rgb(69 69 67) 99.4% );
+    background-image: radial-gradient( circle farthest-corner at 24.1% 68.8%, rgb(10 10 10 / 26%) 0%, rgb(157 157 33 / 42%) 99.4% );
     cursor: pointer;
     transition: border-color 0.25s;
       font-size: 2.5em;
