@@ -283,7 +283,7 @@ select, input{
     font-weight: bold;
     color: rgb(27, 26, 26);
   }
-  #bar{
+  #bar, #dni , #email{
     color: #213547;
   }
   #birthDate{
