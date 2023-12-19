@@ -283,3 +283,9 @@ select, input{
     font-weight: bold;
     color: rgb(27, 26, 26);
   }
+  #bar{
+    color: #213547;
+  }
+  #birthDate{
+       color: #213547;
+  }
