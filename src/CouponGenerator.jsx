@@ -162,22 +162,23 @@ function CouponForm() {
           <div>
             <label htmlFor="bar" className="block  font-medium text-gray-300">Selecciona el Bar:</label>
             <select
-              id="bar"
-              name="bar"
-              required
-              value={formData.bar}
-              onChange={handleChange}
-              className="mt-1 block  px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:border-indigo-500"
-            >
-              <option value="">Selecciona una opción</option>
-              <option value="bar1">El patio cervezero</option>
-              <option value="bar2">EL sitio 420</option>
-              <option value="bar2">EL BODEGON </option>
-              <option value="bar2">Beer Food N Roll </option>
-              <option value="bar2">Top crop </option>
-              <option value="bar2">Top Veg Food </option>
-              {/* Agrega más opciones según los bares disponibles */}
-            </select>
+  id="bar"
+  name="bar"
+  required
+  value={formData.bar}
+  onChange={handleChange}
+  className="mt-1 block  px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:border-indigo-500"
+>
+  <option value="">Selecciona una opción</option>
+  <option value="bar1">El patio cervezero</option>
+  <option value="bar2">420</option>
+  <option value="bar3">EL BODEGON</option>
+  <option value="bar4">Beer Food N Roll</option>
+  <option value="bar5">Top crop</option>
+  <option value="bar6">Top Veg Food</option>
+  {/* Agrega más opciones según los bares disponibles */}
+</select>
+
           </div>
   
           <div className="flex items-center justify-center">
